@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+</head>
+
+<body>
+    <form>
+        <textarea name="message" onkeyup="countChars(this);"></textarea>
+        <p id="contador">0 caracteres</p>
+    </form>
+
+    <script>
+
+        function countChars(num) {
+            document.getElementById("contador").innerHTML = num.value.length + ' caracteres';
+        }
+        
+    </script>
+
+</body>
+
+</html>

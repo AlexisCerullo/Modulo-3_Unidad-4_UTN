@@ -1,0 +1,26 @@
+.cajas {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    width: 450px;
+}
+
+#caja {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    border: 0.5px solid black;
+
+}
+
+.roja {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: green;
+}

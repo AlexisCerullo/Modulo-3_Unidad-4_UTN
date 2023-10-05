@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <div class="cajas">
+        <div id="caja" class="roja">
+
+        </div>
+        <div id="caja" class="azul">
+
+        </div>
+        <div id="caja" class="verde">
+
+        </div>
+    </div>
+
+    <script>
+
+        addEventListener('click', function (e) {
+            const body = document.getElementById('body')
+            body.setAttribute("class", `${e.target.className}`)
+        });
+
+    </script>
+
+</body>
+
+</html>
